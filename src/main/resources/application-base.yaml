@@ -1,5 +1,9 @@
 spring:
   application:
     name: billing-scheduler
+  http:
+    clients:
+      imperative:
+        factory: http_components
   main:
     web-application-type: none
